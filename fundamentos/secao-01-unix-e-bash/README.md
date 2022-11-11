@@ -5,9 +5,9 @@
 
 - [X] Executar comandos no terminal para realizar buscas;
 
-- [X] Utilizar o comando find;
+- [X] Utilizar o comando `find`;
 
-- [X] Utilizar os operadores > (maior), >> (maior maior) e | (pipe) no terminal;
+- [X] Utilizar os operadores `>` (maior), `>>` (maior maior) e `|` (pipe) no terminal;
 
 - [X] Alterar as permissões de arquivos e diretórios;
 
