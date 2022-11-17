@@ -1,3 +1,14 @@
+<!-- Modifique o font-family do h1 para sans-serif;
+
+Deixe o parágrafo com o font-weight 600;
+
+Modifique o font-size do body para 16px;
+
+Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body;
+
+Explore as propriedades font-style, line-height, text-align e text-decoration;
+
+Troque a cor de fundo de cada item da lista para a cor correspondente ao texto. -->
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -6,20 +17,25 @@
     <style>
         h1 {
             font-family: sans-serif;
+            text-decoration: underline;
         }
         p {
             font-weight: 600;
+            font-size: 3em;
         }
         body {
             font-size: 16px;
         }
-
+        #lista {
+            text-align: center;
+            line-height: 10;
+        }
     </style>
   </head>
   <body>
     <h1>Cores</h1>
     <p>Qual é a sua cor favorita?</p>
-    <ul>
+    <ul id="lista">
       <li>Amarelo</li>
       <li>Vermelho</li>
       <li>Marrom</li>
