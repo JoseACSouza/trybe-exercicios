@@ -1,0 +1,8 @@
+.header h1{
+    background-color: aqua;
+    margin-top: 0;
+    padding: 25px;
+}
+.nav{
+    list-style: none;
+}
