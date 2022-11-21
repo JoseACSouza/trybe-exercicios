@@ -27,7 +27,12 @@ aside{
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    width: 18%;
+    width: 19.7%;
     background-color: gray;
     padding-bottom: 65.8%;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: yellow;
 }
