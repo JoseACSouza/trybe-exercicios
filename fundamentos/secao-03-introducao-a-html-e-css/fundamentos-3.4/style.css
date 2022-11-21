@@ -4,5 +4,30 @@
     padding: 25px;
 }
 .nav{
+    background-color: aqua;
+}
+.nav li{
+    display: inline-block;
     list-style: none;
+    text-align: center;
+    margin-inline-end: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 10px;
+}
+article{
+    display: inline-block;
+    background-color: cyan;
+    width: 80%;
+}
+img{
+    width: 30%;
+}
+aside{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 18%;
+    background-color: gray;
+    padding-bottom: 65.8%;
 }
