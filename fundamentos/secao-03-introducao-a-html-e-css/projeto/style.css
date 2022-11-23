@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: monospace, sans-serif;
+}
+
+#cabecalho {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: green;
+}
+
+#minha_foto {
+    margin-top: 6%;
+    width: 15%;
+    border-radius: 15%;
+    border: 2px solid green;
+}
+
+.list,
+.aside {
+    display: inline-block;
+}
+
+.aside {
+    width: 82%;
+    vertical-align: top;
+    margin-top: 5%;
+    color: coral;
+}
+
+#rodape {
+    background-color: darkgray;
+    padding: 1%;
+    margin: 0;
+}
+
+#licoes_aprendidas,
+#licoes_a_aprender {
+    font-size: 20px;
+    color: brown;
+}
+
+#trybe {
+    line-height: 40px;
+    color: green;
+    text-align: justify;
+}
+
+table,
+th,
+td {
+    border: 1px solid orange;
+}
+
+table {
+    margin: auto;
+}
