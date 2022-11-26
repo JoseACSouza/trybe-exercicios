@@ -9,3 +9,10 @@ for (let index = 0; index < numbers.length; index+=1){
 mediaAritmetica = soma/numbers.length;
 console.log(mediaAritmetica);
 //resultado esperado 27.8
+if (mediaAritmetica > 20){
+    console.log('Valor maior que 20');
+}
+else if (mediaAritmetica < 20){
+    console.log('Valor menor que 20');
+}else{console.log('Valor menor que 20')}
+//resultado esperado 'Valor maior que 20'
