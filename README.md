@@ -20,11 +20,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 3: Introdução à HTML & CSS
 
-- [ ] 3-1: HTML & CSS - Estruturas de páginas
-- [ ] 3-2: HTML & CSS - Primeiros passos em CSS
-- [ ] 3-3: HTML & CSS - Seletores e posicionamento
-- [ ] 3-4: HTML Semântico
-- [ ] 3-5: Projeto - Lessons Learned
+- [X] 3-1: HTML & CSS - Estruturas de páginas
+- [X] 3-2: HTML & CSS - Primeiros passos em CSS
+- [X] 3-3: HTML & CSS - Seletores e posicionamento
+- [X] 3-4: HTML Semântico
+- [X] 3-5: Projeto - Lessons Learned
 
 ##### Seção 4: Introdução à JavaScript
 
