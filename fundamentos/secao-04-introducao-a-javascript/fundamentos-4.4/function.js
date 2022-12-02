@@ -7,14 +7,12 @@
 // Retorno esperado: false
 
 const verificaPalindrome = (word) => {
-let splitedWord = word.split('');
-let reversedWord = splitedWord.reverse();
-let stringWord = reversedWord.join('');
+let stringWord = ((word.split('')).reverse()).join('');
     if (word === stringWord){
         return `A palavra: ${word} é um palindromo`;
     } else {return `A palavra: ${word} não é um palindromo`}
 }
-console.log(verificaPalindrome('alemão'));
+console.log(verificaPalindrome('arara'));
 
 //////////////////////////ITEM 2///////////////////////////////////
 
