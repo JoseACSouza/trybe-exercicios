@@ -65,3 +65,22 @@ const biggestName = (array) => {
 return biggerName;
 } 
 //console.log(biggestName(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+
+////////////////////////////////////-> ITEM 5 <-///////////////////////////////////
+// Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+//Array de teste: [2, 3, 2, 5, 8, 2, 3];.
+//Valor esperado no retorno da função: 2.
+const repeatNumbers = (repeat) =>{
+    let numberOfRepeats = [];
+    for(let index = 0; index < repeat.length; index+=1){
+    numberOfRepeats[index] = 0;
+        for(let count = 0; count < repeat.length; count+=1){
+            if (repeat[count]===repeat[index]){
+                numberOfRepeats[index] += 1;
+        }
+    }
+}
+return repeat[highestValue(numberOfRepeats)];
+//Highestvalue é a função pedida no item 2 desta lista 
+}
+console.log(repeatNumbers([2, 3, 2, 5, 8, 2, 3]));
