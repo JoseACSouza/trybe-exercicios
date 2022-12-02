@@ -49,3 +49,19 @@ const lowestValue = (arrayInteiros) => {
 return indexMinValue;
 }
 //console.log(lowestValue([2, 4, 6, 7, 10, 0, -3]));
+
+////////////////////////////////////-> ITEM 4 <-///////////////////////////////////
+// Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+// Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];.
+// Valor esperado no retorno da função: Fernanda.
+
+const biggestName = (array) => {
+    let biggerName = '';
+    for (index = 0; index < array.length; index+=1 ){
+        if(array[index].length > biggerName.length){
+            biggerName = array[index];
+        }
+    }
+return biggerName;
+} 
+//console.log(biggestName(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
