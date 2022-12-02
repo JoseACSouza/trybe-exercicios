@@ -31,3 +31,21 @@ const highestValue = (arrayInteiros) => {
 return indexMaxValue;
 }
 //console.log(highestValue([2, 3, 6, 7, 10, 1]));
+
+// //////////////////////////////////-> ITEM 3 <-///////////////////////////////////
+// Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+// Array de teste: [2, 4, 6, 7, 10, 0, -3];.
+// Valor esperado no retorno da função: 6.
+
+const lowestValue = (arrayInteiros) => {
+    let minValue = Number.POSITIVE_INFINITY;
+    let indexMinValue = 0;
+        for (let index = 0; index < arrayInteiros.length; index+=1){
+            if (arrayInteiros[index] < minValue){
+                minValue = arrayInteiros[index];
+                indexMinValue = index;
+            }
+        }
+return indexMinValue;
+}
+//console.log(lowestValue([2, 4, 6, 7, 10, 0, -3]));
