@@ -70,11 +70,25 @@
       //Item-3
       const addSection = document.createElement('section');
       addSection.className = 'center-content';
-      document.body.addMain.appendChild(addSection);
+      addMain.appendChild(addSection);
 
       //Item-4
-      
+      const addP = document.createElement('p');
+      addP.innerHTML = 'Dois coelhos em uma moto azul';
+      addSection.appendChild(addP); 
 
+      //Item-5
+      const addLeftSection = document.createElement('section');
+      addLeftSection.className = 'left-content';
+      addMain.appendChild(addLeftSection);
+
+      //Item-6
+      const addRightSection = document.createElement('section');
+      addLeftSection.className = 'right-content';
+      addMain.appendChild(addRightSection);
+      
+      //Item-7
+      
     </script>
   </body>
 </html>
