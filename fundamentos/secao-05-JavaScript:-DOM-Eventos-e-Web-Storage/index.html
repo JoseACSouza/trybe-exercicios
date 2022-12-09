@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p id="default">Texto padrão do nosso site</p>
+        <p id="text">-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      const twoYr=(text)=>{
+     document.getElementsByTagName('p')[1].innerText = text;
+      }
+      twoYr('Daqui dois anos me vejo estabelecido no mercado de trabalho, trabalhando em uma empresa bacana');
+    
+      const squareColor =(color)=>{
+        let squareInitial = document.getElementsByClassName('main-content')[0];
+
+        squareInitial.style.background = color;
+      }
+      squareColor('rgb(76,164,109)');
+      const centerSquare = (color) =>{
+          document.getElementsByClassName('center-content')[0].style.background = color
+      }
+      centerSquare('white');
+      
+      const fixH1 = ()=>{
+        document.getElementsByTagName('h1')[0].innerText = 'Desafio - JavaScript';
+      }
+      fixH1();
+
+      const pStUpperCase = ()=>{
+        document.getElementsByTagName('p')[0].innerHTML= document.getElementsByTagName('p')[0].innerHTML.toUpperCase();
+      }
+      pStUpperCase();
+      
+      const showParagraphs = () => {
+        let paragraphs = document.getElementsByTagName('p');
+        for (let index = 0; index < paragraphs.length; index +=1) {
+        console.log(paragraphs[index].innerHTML);
+        }
+    }
+        showParagraphs();
+         
+    
+    </script>
+  </body>
+</html>
