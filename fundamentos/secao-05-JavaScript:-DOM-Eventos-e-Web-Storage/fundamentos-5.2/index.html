@@ -122,6 +122,21 @@
       }
 
       //Item-12
+      const removeLeftContent = document.getElementsByClassName('left-content')[0];
+      addMain.removeChild(removeLeftContent);
+
+      //Item-12
+      const centralizeSection = document.getElementsByClassName('right-content')[0];
+      centralizeSection.style.marginRight = 'auto';
+
+      //Item-13
+      const backgroundCenter = document.getElementsByClassName('center-content')[0];
+      backgroundCenter.style.backgroundColor = 'green';
+
+      //Item-14
+      const removeItens = document.getElementsByTagName('ul')[0];
+      removeItens.lastChild.remove();
+      removeItens.lastChild.remove();
     </script>
   </body>
 </html>
