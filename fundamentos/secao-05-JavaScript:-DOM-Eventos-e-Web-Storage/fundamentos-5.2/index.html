@@ -60,6 +60,7 @@
       //Item-1
       const addH1 = document.createElement('h1');
       addH1.innerText = 'TrybeTrip - Agência de Viagens';
+      // addH1.className = 'title';
       document.body.appendChild(addH1);
 
       //Item-2
@@ -105,12 +106,22 @@
 
       //Item-9
       for (let index = 0; index < 3; index+=1){
-        const h3 = createElement('h3');
+        const h3 = document.createElement('h3');
+        h3.innerHTML = `coelho: ${index}`;
         addMain.appendChild(h3);
       }
 
       //Item-10
+      const addTitle = document.getElementsByTagName('h1');
+      addTitle[0].className = 'title';
 
+      //Item-11
+      const descriptions = document.getElementsByTagName('h3');
+      for (let index in descriptions){
+        descriptions[index].className = 'description'; 
+      }
+
+      //Item-12
     </script>
   </body>
 </html>
