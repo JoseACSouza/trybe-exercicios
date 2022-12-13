@@ -90,12 +90,12 @@ const addFridayFunction = () =>{
   
   if (btnFridayStatus){
     for(let index = 0; index < classFriday.length; index += 1){
-    classFriday[index].style.backgroundColor = 'lime';
+    classFriday[index].style.color = 'blue';
     }
     btnFridayStatus = false;
   } else {
     for(let index = 0; index < classFriday.length; index += 1){
-    classFriday[index].style.backgroundColor = 'rgb(238,238,238)';
+    classFriday[index].style.color = '#777';
   }
     btnFridayStatus = true;}
   }) 
