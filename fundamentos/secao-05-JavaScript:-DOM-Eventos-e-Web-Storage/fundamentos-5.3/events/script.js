@@ -101,3 +101,6 @@ const addFridayFunction = () =>{
   }) 
   }
   addFridayFunction();
+
+  //Parte 6
+  
