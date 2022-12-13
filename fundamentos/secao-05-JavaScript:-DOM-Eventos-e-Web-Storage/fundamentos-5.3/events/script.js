@@ -50,7 +50,21 @@ createDays();
     newButton.innerHTML = feriados;
     button.appendChild(newButton);
   }
-
   createButton('feriados');
 
 //Parte 3
+const btnHoliday = document.getElementById('btn-holiday');
+let btnStatus = true;
+btnHoliday.addEventListener('click',(event)=>{
+  const classHoliday = document.getElementsByClassName('holiday');
+  if (btnStatus){
+  for(let index = 0; index < classHoliday.length; index += 1){
+  classHoliday[index].style.backgroundColor = 'cyan';
+  }
+  btnStatus = false;
+} else {
+  for(let index = 0; index < classHoliday.length; index += 1){
+  classHoliday[index].style.backgroundColor = 'rgb(238,238,238)';
+}
+  btnStatus = true;}
+})
