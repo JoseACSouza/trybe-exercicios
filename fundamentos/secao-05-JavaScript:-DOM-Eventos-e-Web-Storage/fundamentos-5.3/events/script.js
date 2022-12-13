@@ -42,15 +42,14 @@ const createDaysOfTheWeek = () => {
 createDays();
 
 //Parte 2
-  const createButton = (feriados) => {
-    feriados = 'Feriados';
+  const createHolidayButton = (feriados) => {
     const button = document.getElementsByClassName('buttons-container')[0];
     let newButton = document.createElement('button');
     newButton.id = 'btn-holiday';
     newButton.innerHTML = feriados;
     button.appendChild(newButton);
   }
-  createButton('feriados');
+  createHolidayButton('Feriados');
 
 //Parte 3
 const addHolidayFunction = () =>{
@@ -73,3 +72,32 @@ btnHoliday.addEventListener('click',(event)=>{
 addHolidayFunction();
 
 //Parte 4
+const createFridayButton = (sextaFeira) => {
+  const buttonFriday = document.getElementsByClassName('buttons-container')[0];
+  let fridayButton = document.createElement('button');
+  fridayButton.id = 'btn-friday';
+  fridayButton.innerHTML = sextaFeira;
+  buttonFriday.appendChild(fridayButton);
+}
+createFridayButton('Sexta-Feira');
+
+//Parte 5
+const addFridayFunction = () =>{
+  const btnFriday = document.getElementById('btn-friday');
+  let btnFridayStatus = true;
+  btnFriday.addEventListener('click',(event)=>{
+  const classFriday = document.getElementsByClassName('friday');
+  
+  if (btnFridayStatus){
+    for(let index = 0; index < classFriday.length; index += 1){
+    classFriday[index].style.backgroundColor = 'lime';
+    }
+    btnFridayStatus = false;
+  } else {
+    for(let index = 0; index < classFriday.length; index += 1){
+    classFriday[index].style.backgroundColor = 'rgb(238,238,238)';
+  }
+    btnFridayStatus = true;}
+  }) 
+  }
+  addFridayFunction();
