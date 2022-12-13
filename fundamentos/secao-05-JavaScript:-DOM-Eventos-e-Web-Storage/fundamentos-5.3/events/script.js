@@ -53,6 +53,7 @@ createDays();
   createButton('feriados');
 
 //Parte 3
+const addHolidayFunction = () =>{
 const btnHoliday = document.getElementById('btn-holiday');
 let btnStatus = true;
 btnHoliday.addEventListener('click',(event)=>{
@@ -67,4 +68,8 @@ btnHoliday.addEventListener('click',(event)=>{
   classHoliday[index].style.backgroundColor = 'rgb(238,238,238)';
 }
   btnStatus = true;}
-})
+}) 
+}
+addHolidayFunction();
+
+//Parte 4
