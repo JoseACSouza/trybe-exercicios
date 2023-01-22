@@ -20,7 +20,7 @@ describe('Exercicio - 2', ()=>{
 
 describe('Exercicio - 3', ()=>{
   it('Teste se encode e decode são funções',()=>{
-    expect(typeof encode).toBe('function');
+  expect(typeof encode).toBe('function');
     expect(typeof decode).toBe('function');
   });
   it('Para a função encode, teste se as vogais a, e, i, o, u são convertidas em 1, 2, 3, 4 e 5, respectivamente',()=>{
@@ -90,4 +90,3 @@ describe('Exercício - 5', () => {
     expect(hydrate('4 caipirinhas e 2 cervejas')).toBe('6 copos de água');
   });
 });
-
