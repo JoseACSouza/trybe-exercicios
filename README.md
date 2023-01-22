@@ -28,30 +28,30 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 4: Introdução à JavaScript
 
-- [ ] 4-1: JavaScript - Primeiros passos
-- [ ] 4-2: JavaScript - Array e loop For
-- [ ] 4-3: JavaScript - Lógica de Programação e Algoritmos
-- [ ] 4-4: JavaScript - Objetos e funções
-- [ ] 4-5: JavaScript - let, const, arrow functions e template literals
-- [ ] 4-6: Projeto - Playground Functions
+- [x] 4-1: JavaScript - Primeiros passos
+- [x] 4-2: JavaScript - Array e loop For
+- [x] 4-3: JavaScript - Lógica de Programação e Algoritmos
+- [x] 4-4: JavaScript - Objetos e funções
+- [x] 4-5: JavaScript - let, const, arrow functions e template literals
+- [x] 4-6: Projeto - Playground Functions
 
 ##### Seção 5: JavaScript: DOM, Eventos e Web Storage
 
-- [ ] 5-1: JavaScript - DOM e seletores
-- [ ] 5-2: JavaScript - Trabalhando com elementos
-- [ ] 5-3: JavaScript - Eventos
-- [ ] 5-4: JavaScript - Web Storage
-- [ ] 5-5: Projeto - Arte com Pixels
-- [ ] 5-6: Projetos Bônus
+- [x] 5-1: JavaScript - DOM e seletores
+- [x] 5-2: JavaScript - Trabalhando com elementos
+- [x] 5-3: JavaScript - Eventos
+- [x] 5-4: JavaScript - Web Storage
+- [x] 5-5: Projeto - Arte com Pixels
+- [x] 5-6: Projetos Bônus
 
 ##### Seção 6: HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] 6-1: HTML & CSS - Forms
-- [ ] 6-2: Bibliotecas JavasCript e Frameworks CSS
-- [ ] 6-3: CSS Flexbox - Parte 1
-- [ ] 6-4: CSS Flexbox - Parte 2
-- [ ] 6-5: CSS Responsivo - Mobile First
-- [ ] 6-6: Projeto - Trybewarts
+- [x] 6-1: HTML & CSS - Forms
+- [x] 6-2: Bibliotecas JavasCript e Frameworks CSS
+- [x] 6-3: CSS Flexbox - Parte 1
+- [x] 6-4: CSS Flexbox - Parte 2
+- [x] 6-5: CSS Responsivo - Mobile First
+- [x] 6-6: Projeto - Trybewarts
 
 ##### Seção 7: Introdução à JavaScript ES6 e Testes Unitários
 
